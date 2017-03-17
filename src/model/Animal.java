@@ -19,6 +19,13 @@ public class Animal {
 		this.ficha = ficha;
 	}
 
+	public double getGastosVacinas(){
+		double total=0;
+		for (Vacina v : ficha.getVacinas()){
+			total+=v.getPreco();
+		}
+		return total;
+	}
 	public int getIdDono() {
 		return idDono;
 	}
@@ -66,4 +73,5 @@ public class Animal {
 	public void setFicha(Ficha ficha) {
 		this.ficha = ficha;
 	}
+
 }

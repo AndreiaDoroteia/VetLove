@@ -11,14 +11,13 @@ public class Cliente {
 	private int telefone;
 	private ArrayList<Animal> animais;
 	
-	public Cliente(int id, String nome, String morada, String email, int telefone) {
+	public Cliente(String nome, String morada, String email, int telefone) {
 		super();
-		this.id = id;
 		this.nome = nome;
 		this.morada = morada;
 		this.email = email;
 		this.telefone = telefone;
-		animais = new ArrayList<>;
+		animais = new ArrayList<>();
 	}
 	public ArrayList<Animal> getAnimais() {
 		return animais;
