@@ -66,7 +66,4 @@ public class Animal {
 	public void setFicha(Ficha ficha) {
 		this.ficha = ficha;
 	}
-	
-	
-
 }

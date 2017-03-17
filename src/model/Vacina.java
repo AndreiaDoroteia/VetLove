@@ -1,12 +1,12 @@
 package model;
 
-public class Vacinas {
+public class Vacina {
 	
 	private String data;
 	private String nomeVacina;
-	private float preco;
+	private double preco;
 	
-	public Vacinas(String data, String nomeVacina, float preco) {
+	public Vacina(String data, String nomeVacina, double preco) {
 		super();
 		this.data = data;
 		this.nomeVacina = nomeVacina;
@@ -29,11 +29,11 @@ public class Vacinas {
 		this.nomeVacina = nomeVacina;
 	}
 
-	public float getPreco() {
+	public double getPreco() {
 		return preco;
 	}
 
-	public void setPreco(float preco) {
+	public void setPreco(double preco) {
 		this.preco = preco;
 	}
 	

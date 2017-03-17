@@ -1,5 +1,7 @@
 package model;
 
+import java.util.ArrayList;
+
 public class Cliente {
 	
 	private int id;
@@ -7,7 +9,7 @@ public class Cliente {
 	private String morada;
 	private String email;
 	private int telefone;
-	Animal animal;
+	private ArrayList<Animal> animais;
 	
 	public Cliente(int id, String nome, String morada, String email, int telefone) {
 		super();
@@ -16,6 +18,13 @@ public class Cliente {
 		this.morada = morada;
 		this.email = email;
 		this.telefone = telefone;
+		animais = new ArrayList<>;
+	}
+	public ArrayList<Animal> getAnimais() {
+		return animais;
+	}
+	public void setAnimais(ArrayList<Animal> animais) {
+		this.animais = animais;
 	}
 	public int getId() {
 		return id;

@@ -1,10 +1,10 @@
 package model;
 
-public class Consultas {
+public class Consulta {
 	private String data;
 	private String descricao;
 	
-	public Consultas(String data, String descricao) {
+	public Consulta(String data, String descricao) {
 		super();
 		this.data = data;
 		this.descricao = descricao;
